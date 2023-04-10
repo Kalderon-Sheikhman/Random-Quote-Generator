@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+}
+
+section {
+    position: relative;
+}
+h1 {
+    position:fixed;
+    top: 0;
+    align-self: center;
+    
+
+    
+}
+div {
+    position: relative;
+    z-index :2;
+}
+
+
+
+body {
+    background-color: lightslategray;
+    color:beige;
+    font-family: 'Montserrat',sans-serif;
+    font-weight:500;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.footer {
+    width:450px;
+    text-align: center;
+    display:block;
+    margin:14px auto 25px auto;
+    font-size:0.9em;
+    color: #fff;
+}
+
+.footer a {
+    font-weight: 600;
+    text-decoration: wavy;
+    color:red;
+
+    
+}
+
+#quote-box {
+    border-radius: 5%;
+    position: relative;
+    width:500px;
+    padding:30px;
+    display:table;
+    background-color: #0d0de1;
+}
+#quote-box .quote-text{
+    text-align: center;
+    width:400px;
+    height:auto;
+    clear:both;
+    font-weight:600;
+    font-size:1.5em;
+    color:#ffffff;
+}
+#quote-box .quote-text i{
+    font-size:1em;
+    margin-right: 0.3em;
+    background-color: black;
+}
+#quote-box .quote-author {
+    width:450px;
+    height:auto;
+    clear:both;
+    padding-top:30px;
+    font-size:1.1em;
+    text-align: right;
+}
+
+#quote-box .buttons {
+    width:450px;
+    margin:auto;
+    display: block;
+}
+#quote-box .buttons .button {
+    height: 35px;
+    border:2px solid yellow;
+    border-radius: 8%;
+    color:#fff;
+    background-color: black;
+    outline:none;
+    font-size:0.8em;
+    padding:5px 15px 8px 17px;
+    margin-top: 30px;
+    opacity:1;
+    cursor:pointer;
+}
+
+#quote-box .buttons .button:hover {
+    opacity:0.8;
+}
+#quote-box .buttons .button#tweet-quote {
+    float:left;
+    padding:0px;
+    padding-top: 7px;
+    text-align:center;
+    font-size: 1.1em;
+    margin-right:15px;
+    height:25px;
+    width:40px;
+}
+#quote-box .buttons .button#new-quote {
+    float: right;
+}
